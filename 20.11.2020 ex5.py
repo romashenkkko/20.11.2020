@@ -1,0 +1,26 @@
+n=int(input('Anul este'))
+n=n-2000
+if (n%12==1):
+    print('Anul sarpelui')
+if (n%12==2):
+    print('Anul calului')
+if (n%12==3):
+    print('Anul oitei')
+if (n%12==4):
+    print('Anul maimuta')
+if (n%12==5):
+    print('Anul cocoșului')
+if (n%12==6):
+    print('Anul cainelui')
+if (n%12==7):
+    print('Anul porcușorului')
+if (n%12==8):
+    print('Anul sobolanului')
+if (n%12==9):
+    print('Anul boului')
+if (n%12==10):
+    print('Anul tigrului')
+if (n%12==11):
+    print('Anul iepurelui')
+if (n%12==0):
+    print('Anul dragonului')
